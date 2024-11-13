@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 0dvh;
+}
+
+body {
+  font-family: 'Oxanium', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(120, 0, 0, 0.7), rgba(33, 33, 33, 0.9)), url('https://www.hibridosyelectricos.com/uploads/s1/42/18/07/supercargadores-tesla-en-espana-coches-electricos-portada.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+#map-bfs, #map-a-star {
+  height: 500px;
+  width: 90%;
+}
+
+#dropdown-estaciones {
+  display: none;
+}
